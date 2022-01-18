@@ -17,7 +17,7 @@ while True:
                                   draw_specs,draw_specs)
             # for lms in faceLms.landmarks:
                 # print(lm)
-
+H
     cTime = time.time()
     fps = 1 / (cTime-pTime)
     pTime = cTime
@@ -26,3 +26,5 @@ while True:
                 (255, 0, 0), 3)
     cv2.imshow('HACKER HANDS', img)
     cv2.waitKey(5)
+    
+    Print("Hey, This is Dev start my repo. I hope you like it")
